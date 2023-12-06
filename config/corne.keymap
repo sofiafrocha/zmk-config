@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL             &kp DOUBLE_QUOTES  &kp HASH           &kp DLLR  &kp PRCNT                      &kp AMPERSAND                      &kp SLASH                            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL            &trans
-&trans  &trans               &trans             &trans             &trans    &trans                         &trans                             &trans                               &trans                &trans                 &mt RS(EQUAL) EQUAL  &trans
-&trans  &mt LS(GRAVE) GRAVE  &kp AT_SIGN        &mt LS(SEMI) SEMI  &trans    &mt LS(BACKSLASH) BACKSLASH    &mt LS(SINGLE_QUOTE) SINGLE_QUOTE  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(SLASH) SLASH   &trans                 &trans               &trans
-                                                &trans             &trans    &trans                         &trans                             &trans                               &trans
+&trans  &mt LS(NUMBER_1) NUMBER_1  &mt LS(NUMBER_2) NUMBER_2  &mt LS(NUMBER_3) NUMBER_3  &mt LS(NUMBER_4) NUMBER_4  &mt LS(N5) N5                  &mt RS(NUMBER_6) NUMBER_6          &mt RS(N7) N7                        &mt RS(N8) N8        &mt RS(N9) N9  &mt RS(N0) N0        &trans
+&trans  &trans                     &trans                     &trans                     &trans                     &trans                         &trans                             &trans                               &trans               &trans         &mt RS(EQUAL) EQUAL  &trans
+&trans  &mt LS(GRAVE) GRAVE        &kp LA(NUMBER_2)           &mt LS(SEMI) SEMI          &trans                     &mt LS(BACKSLASH) BACKSLASH    &mt LS(SINGLE_QUOTE) SINGLE_QUOTE  &mt LS(RIGHT_BRACKET) RIGHT_BRACKET  &mt LS(SLASH) SLASH  &trans         &trans               &trans
+                                                              &trans                     &trans                     &trans                         &trans                             &trans                               &trans
             >;
         };
     };
