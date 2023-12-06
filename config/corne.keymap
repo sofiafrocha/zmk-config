@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL  &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
-&trans  &trans    &trans             &trans    &trans    &trans       &trans         &trans     &kp LBKT              &kp RBKT               &kp A      &trans
-&trans  &kp A     &kp AT_SIGN        &kp A     &trans    &kp A        &kp A          &kp A      &kp A                 &trans                 &trans     &trans
-                                     &trans    &trans    &trans       &trans         &trans     &trans
+&trans  &kp EXCL             &kp DOUBLE_QUOTES  &kp HASH  &kp DLLR  &kp PRCNT    &kp AMPERSAND  &kp SLASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &trans
+&trans  &trans               &trans             &trans    &trans    &trans       &trans         &trans     &kp LBKT              &kp RBKT               &kp A      &trans
+&trans  &mt LS(GRAVE) GRAVE  &kp AT_SIGN        &kp A     &trans    &kp A        &kp A          &kp A      &kp A                 &trans                 &trans     &trans
+                                                &trans    &trans    &trans       &trans         &trans     &trans
             >;
         };
     };
