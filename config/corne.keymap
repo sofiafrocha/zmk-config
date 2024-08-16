@@ -47,10 +47,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans      &kp N1        &kp N2        &kp N3        &kp N4             &kp N5             &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
-&bt BT_CLR  &trans        &trans        &kp K_MUTE    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans      &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans             &trans             &trans    &trans    &trans  &trans     &trans  &trans
-                                        &trans        &trans             &trans             &trans    &trans    &trans
+&trans          &kp N1      &kp N2      &kp N3      &kp N4             &kp N5             &kp N6    &kp N7    &kp N8  &kp N9     &kp N0  &trans
+&bt BT_CLR_ALL  &trans      &trans      &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans          &bt BT_NXT  &bt BT_PRV  &trans      &trans             &trans             &trans    &trans    &trans  &trans     &trans  &trans
+                                        &trans      &trans             &trans             &trans    &trans    &trans
             >;
         };
 
